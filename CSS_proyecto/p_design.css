@@ -1,0 +1,460 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*EMPIEZA CÓDIGO*/
+
+/*PALETA COLORES
+
+Rojo: #d03b40
+Beige: #ded6c0
+Blanco: #f5f0ed
+Gris: #241d1b
+
+Texto claro: #f5f0ed
+Texto oscuro: #3c3c3b
+
+
+TIPOGRAFÍA
+
+Open Sans Regular
+Open Sans Extrabold
+
+
+TAMAÑOS
+
+Encabezado 1r nivel: 44px
+Encabezado 2º nivel: 28px
+Encabezado 3r nivel: 24px
+Cuerpo de texto: 16px
+Botones: 14px
+*/
+
+*{
+		font-family: "open-sans-regular", sans-serif;
+		text-align: center;
+}
+
+.head1{
+	background: url(../Proyecto/Proyecto/Imágenes/Fondo1.jpg)  center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f5f0ed;
+	padding-bottom: 1%;
+}
+
+#logo{
+	float: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 1%;
+	padding-right: 38%;
+}
+
+ul{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 58%;
+	padding-right: 2%;
+}
+
+li{
+	list-style: none;
+	list-style-position: inside;
+	display: inline;
+	float: right;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 2%;
+	font-family: "open-sans-extrabold", sans-serif;
+	font-weight: bold;
+}
+
+a{
+	color: #f5f0ed;
+	text-decoration: none;
+}
+
+
+h1{
+	font-size: 44px;
+	display: block;
+	font-family: "open-sans-extrabold", sans-serif;
+	font-weight: bolder;
+}
+
+a:hover,
+#intro1:hover{
+	color: white;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+a:hover{
+	transition: 1s padding;
+	padding: 2px;
+	transition-timing-function: ease;
+}
+
+
+#intro1{
+	padding-top: 10%;
+	padding-bottom: 2%;
+	padding-left: 35%;
+	padding-right: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.barra{
+	width: 20%;
+	height: 3px;
+	background-color: #f5f0ed;
+	margin: 2% 39.5%;
+}
+
+.intro2{
+	width: 33%;
+	display: block;
+	padding: 2% 30% 20% 28%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+h2{
+	font-size: 28px;
+}
+
+.izquierda1,
+.derecha1,
+.intro2,
+.productos{
+			font-family: "open-sans-regular", sans-serif;
+}
+
+.izquierda1{
+	display: block;
+	float: left;
+	color: #ded6c0;
+	background-color: #d03b40;
+	width: 50%;
+	height: 20em;
+}
+
+.in1,
+.on1{
+		padding-bottom: 33%;
+}
+
+.in2,
+.on2{
+	padding-top: 15%;
+	padding-bottom: 5%;
+	margin: 0% 25%;
+	font-family: "open-sans-extrabold", sans-serif;
+	font-weight: bolder;
+}
+
+.in3,
+.on3{
+	margin: 0% 20%;
+	padding-bottom: 40%;
+}
+
+.derecha1{
+	display: block;
+	float: right;
+	color: #d03b40;
+	background-color: #ded6c0;
+	width: 50%;
+	height: 20em;
+}
+
+
+.head2{
+	background: url(../Proyecto/Proyecto/Imágenes/Fondo2.jpg) center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 15%;
+}
+
+.ven{
+		margin-top: 10%;
+		padding-top: 10%;
+		color: #f5f0ed;
+}
+
+h1.desayuno{
+			color: #f5f0ed;
+			margin-top: 20%;
+}
+
+.desayuno:hover{
+	transition: 1s color;
+	color: #ded6c0;
+
+}
+
+
+.productos{
+	border-style: solid;
+	border-color: #f5f0ed;
+	border-width: 3px;
+	padding: 1% 1%;
+	margin: 2% 33%;
+	width: 30%;
+	border-radius: 20px;
+}
+
+.productos:hover{
+	transition: 0.5s background-color;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.productosinfo{
+	color: #f5f0ed;
+	width: 45%;
+	margin: 1% 27%;
+	text-align: center;
+}
+
+.producto1,
+.producto2,
+.producto3,
+.producto4{
+	display: block;
+	text-align: left;
+	width: 50%;
+	height: 15em;
+	padding-top: 5%;
+	font-family: "open-sans-regular", sans-serif;
+	background-color: #f5f0ed;
+
+}
+
+.producto1,
+.producto3{
+	float: left;
+}
+
+.producto2,
+.producto4{
+	float: right;
+}
+
+.img{
+ float: left;
+ display: block;
+ padding-left: 2%;
+}
+
+.productos_info{
+	margin-top: 10%;
+	font-family: "open-sans-extrabold", sans-serif;
+	float: left;
+	margin-left: 2%;
+	background-color: #f5f0ed;
+}
+
+.produtexto{
+	display: block;
+	float: left;
+	margin-left: 1%;
+	background-color: #f5f0ed;
+}
+
+.produtext{
+	display: inline-block;
+	text-align: left;
+	margin-top: auto;
+	margin-left: 2%;
+	background-color: #f5f0ed;
+}
+
+.contacto{
+	display: block;
+	background-color: #ded6c0;
+	float: left;
+	width: 50%;
+	padding: 10% 0%;
+	text-align: center;
+	font-family: "open-sans-regular", sans-serif;
+	color: #d03b40;
+}
+
+.contactanos{
+	font-size: 28px;
+	font-family: "open-sans-extrabold", sans-serif;
+	font-weight: bolder;
+}
+
+#correo{
+		color: #d03b40;
+}
+
+.ubicación{
+	font-family: "open-sans-regular", sans-serif;
+	display: block;
+	background-color: #d03b40;
+	float: right;
+	width: 50%;
+	padding: 5% 0% 4.9% 0%;
+	text-align: center;
+	color: #ded6c0
+}
+
+#dónde{
+	font-size: 28px;
+	font-family: "open-sans-extrabold", sans-serif;
+	font-weight: bolder;
+}
+
+.derechos{
+	float: none;
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	padding: 1% 0%;
+	background-color: #241d1b;
+	font-family: "open-sans-extrabold", sans-serif;
+	color: #ded6c0
+}
+
+@media screen and (max-width: 700px){
+
+
+
+	h1, h2{
+		font-size: 24px;
+		}
+	p{
+		font-size: 16px;
+		text-align: justify;
+}
+
+	p.center{
+		text-align: center;
+	}
+
+	.ubicación,
+	.contacto,
+	.derechos,
+	.producto1,
+	.producto2,
+	.producto3,
+	.producto4,
+	.derecha1,
+	.izquierda1,
+	.head1,
+	.head2,
+	.img
+{
+		float:none;
+		width: 100%;
+		padding: inherit 10% inherit 9.3%;
+}
+
+.intro2{
+	padding: inherit 0%;
+	margin: inherit 10%;
+
+}
+
+.producto4{
+	height: 18em;
+}
+
+.head2{
+	background-repeat: no-repeat;
+	margin-top: 0%;
+	padding: 10% 0%;
+}
+
+.ven{
+	padding: 0%;
+	margin-top: 0%;
+}
+
+.desayuno{
+	padding-top: 0%;
+	margin-top: 0%;
+}
+
+	.productos_info,
+	.produtext,
+	.produtexto{
+			float:none;
+			margin: 0% inherit;
+			padding: 0% inherit;
+		}
+
+li{
+	visibility: hidden;
+}
+
+.img{
+	float: inherit;
+	display: block;
+	overflow: hidden;
+	resize: both;
+	max-height: 50%;
+	max-height: 50%;
+	margin: auto;
+	object-fit: scale-down;
+
+}
+
+.produtexto{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+	}
+}
